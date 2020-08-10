@@ -8,3 +8,10 @@ menuToggle.addEventListener("click", () => {
   categorias.classList.toggle("on", show);
   show = !show;
 });
+
+categorias.addEventListener("click", (e) => {
+  if (e.target === categorias) {
+    categorias.classList.toggle("on", show);
+  }
+  show = !show;
+});

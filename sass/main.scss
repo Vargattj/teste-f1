@@ -1,4 +1,3 @@
-// @import "abstracts/_functions.scss";
 @import "abstracts/variables.scss";
 @import "abstracts/mixins.scss";
 
@@ -9,9 +8,4 @@
 @import "components/produto.scss";
 @import "components/mosaico.scss";
 @import "components/footer.scss";
-@import "base/responsivo.scss";
-
-// @import "base/_utilies.scss";
-
-// @import "layout/_navigation.scss";
-
+@import "responsivo/responsivo.scss";

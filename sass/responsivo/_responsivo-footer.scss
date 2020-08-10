@@ -1,0 +1,61 @@
+footer {
+  & > div {
+    padding-bottom: 60px;
+    .newsletter {
+      flex-wrap: wrap;
+      margin-top: 0;
+      p {
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 16px;
+      }
+      form {
+        width: 100%;
+        flex-wrap: wrap;
+
+        button {
+          padding: 10px 50px;
+          margin: 15px auto;
+        }
+      }
+    }
+  }
+
+  .formas-pagamento {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: 237px;
+      margin: 0 auto;
+      li {
+        margin-right: 14px;
+      }
+    }
+  }
+  .info {
+    & > div {
+      flex-direction: column;
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        order: -1;
+
+        &:nth-child(2) {
+          order: 1;
+        }
+
+        h2 {
+          margin-top: 15px;
+        }
+        li {
+          margin-bottom: 7px;
+        }
+      }
+    }
+  }
+}

@@ -31,11 +31,17 @@
         </div>
       </section>
 
-      <section class="container categorias">
-        <nav>
+      <section class="categorias menu-container">
+        <nav class="menu">
           <ul>
-            <li>
-              <a href="">Todas as Categorias</a>
+            <li data-dropdown>
+              <a href="#" class="seta-baixo">Todas as Categorias</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Audio</a></li>
+                <li><a href="#">Instrumentos</a></li>
+                <li><a href="#">ILUMINAÇÃO</a></li>
+                <li><a href="#">FERRAMENTAS</a></li>
+              </ul>
             </li>
             <li>
               <a href="">AUDIO</a>
@@ -220,5 +226,6 @@
       </section>
     </footer>
     <script src="js/menu.js"></script>
+    <script src="js/dropdown.js"></script>
   </body>
 </html>
