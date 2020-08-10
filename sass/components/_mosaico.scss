@@ -1,0 +1,39 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 30px;
+  grid-template-areas: "img img-2 img-2 img-3" "img img-2 img-2 img-3" "img img-4 img-5 img-6";
+  height: 460px;
+  div {
+    background-image: url("  http://via.placeholder.com/600x600");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+  }
+}
+
+.img {
+  grid-area: img;
+}
+
+.img-2 {
+  grid-area: img-2;
+}
+
+.img-3 {
+  grid-area: img-3;
+}
+
+.img-6 {
+  grid-area: img-6;
+}
+
+.img-4 {
+  grid-area: img-4;
+}
+
+.img-5 {
+  grid-area: img-5;
+}
