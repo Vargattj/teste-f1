@@ -299,7 +299,8 @@ header {
     margin-bottom: 60px;
     height: 430px;
     transition: 0.6s;
-    position: relative; }
+    position: relative;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.3); }
     .produtos .produto:hover {
       background: #f2f2f2;
       box-shadow: inset 0px -2px 0px 0px #4f4f4f; }
@@ -379,6 +380,7 @@ header {
   grid-template-areas: "img img-2 img-2 img-3" "img img-2 img-2 img-3" "img img-4 img-5 img-6";
   height: 460px; }
   .grid-container div {
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.3);
     background-image: url("  http://via.placeholder.com/600x600");
     background-position: center;
     background-size: cover;
@@ -402,6 +404,42 @@ header {
 
 .img-5 {
   grid-area: img-5; }
+
+@media all and (-ms-high-contrast: none) {
+  .grid-container {
+    display: -ms-grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr; }
+  .img {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1; }
+  .img-2 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2; }
+  .img-3 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1; }
+  .img-4 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1; }
+  .img-5 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1; }
+  .img-6 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1; } }
 
 footer > div {
   background-color: #333; }
