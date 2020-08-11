@@ -1,5 +1,5 @@
 export default function iniciarMenu() {
-  let show = false;
+  let show = true;
 
   const categorias = document.querySelector(".categorias");
   const menuToggle = document.querySelector(".menu-burguer");
