@@ -12,10 +12,9 @@ export default function iniciarMenu() {
 
   categorias.addEventListener("click", (e) => {
     if (e.target === categorias) {
-      categorias.classList.toggle("on", show);
+      categorias.classList.remove("on", show);
     }
-    document.body.style.overflow = show ? "hidden" : "initial";
-
+    document.body.style.overflow = show ? "innital" : "initial";
     show = !show;
   });
 }
