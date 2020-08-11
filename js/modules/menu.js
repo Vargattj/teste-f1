@@ -1,5 +1,5 @@
 export default function iniciarMenu() {
-  let show = true;
+  let show = false;
 
   const categorias = document.querySelector(".categorias");
   const menuToggle = document.querySelector(".menu-burguer");
@@ -14,6 +14,8 @@ export default function iniciarMenu() {
     if (e.target === categorias) {
       categorias.classList.toggle("on", show);
     }
+    document.body.style.overflow = show ? "hidden" : "initial";
+
     show = !show;
   });
 }
