@@ -626,6 +626,7 @@ footer .info {
         line-height: 4rem;
         display: block; }
   .banner {
+    margin-top: 40px;
     max-height: 250px; }
     .banner h1 {
       font-size: 5em !important; }
