@@ -176,14 +176,14 @@ header {
         color: #fff;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url("../img/etiqueta.png"); }
+        background-image: url("./img/etiqueta.png"); }
     header .header-search .menu-burguer {
       display: none; }
   header .categorias {
     background-color: #4F4F4F; }
     header .categorias .seta-baixo::after {
       content: "";
-      background-image: url("../img/seta-baixo.png");
+      background-image: url("./img/seta-baixo.png");
       background-repeat: no-repeat;
       background-size: 100%;
       text-align: center;
